@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:localization/home_page/About.dart';
+import 'package:localization/home_page/Setting.dart';
 
 class HomeScreen extends StatelessWidget {
-  final List locale = [
+  /*final List locale = [
     {'name': 'English', 'locale': Locale('en', 'US')},
     {'name': 'Lao', 'locale': Locale('lao', 'Laos')},
   ];
@@ -42,7 +43,7 @@ class HomeScreen extends StatelessWidget {
             ),
           );
         });
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -78,7 +79,8 @@ class HomeScreen extends StatelessWidget {
             ListTile(
               leading: Icon(Icons.settings),
               title: Text('setting'.tr),
-              onTap: () => {},
+              onTap: () => Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Setting())),
             ),
             Divider(),
             ListTile(
@@ -89,7 +91,7 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-      body: Center(
+      /*body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -108,7 +110,7 @@ class HomeScreen extends StatelessWidget {
                 child: Text('changelang'.tr))
           ],
         ),
-      ),
+      ),*/
     );
   }
 }
