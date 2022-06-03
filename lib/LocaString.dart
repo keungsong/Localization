@@ -4,24 +4,24 @@ class LocalString extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         'en_US': {
-          'title': 'Language Translate',
+          'title': 'Welcome',
           'hello': 'Hello',
           'message': 'Welcome to Multi Language',
           'changelang': 'Language',
           'profile': 'Profile',
           'signout': 'Exit',
-          'about': 'About',
+          'about': 'About Us',
           'setting': 'Setting',
           'chooselang': 'Choose a Language'
         },
         'lao': {
-          'title': 'ແປພາສາ',
+          'title': 'ຍີນດີຕ້ອນຮັບ',
           'hello': 'ສະບາຍດີ',
           'message': 'ຍີນດີຕ້ອນຮັບ',
           'changelang': 'ເລືອກພາສາ',
           'profile': 'ໂປລຟາຍ',
           'signout': 'ອອກຈາກລະບົບ',
-          'about': 'ກ່ຽວກັບ',
+          'about': 'ກ່ຽວກັບພວກເຮົາ',
           'setting': 'ຕັ້ງຄ່າ',
           'chooselang': 'ເລືອກພາສາ'
         }

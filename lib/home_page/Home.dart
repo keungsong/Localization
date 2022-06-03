@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             UserAccountsDrawerHeader(
-              accountName: new Text("Admin"),
+              accountName: new Text("Username"),
               accountEmail: new Text("email"),
               decoration: BoxDecoration(
                   image: DecorationImage(
