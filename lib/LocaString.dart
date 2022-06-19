@@ -12,7 +12,12 @@ class LocalString extends Translations {
           'signout': 'Exit',
           'about': 'About Us',
           'setting': 'Setting',
-          'chooselang': 'Choose a Language'
+          'chooselang': 'Choose a Language',
+          'english': 'English',
+          'lao': 'Lao',
+          'home': 'Home',
+          'feed': 'Feed',
+          'order': 'My Order'
         },
         'lao': {
           'title': 'ຍີນດີຕ້ອນຮັບ',
@@ -23,7 +28,12 @@ class LocalString extends Translations {
           'signout': 'ອອກຈາກລະບົບ',
           'about': 'ກ່ຽວກັບພວກເຮົາ',
           'setting': 'ຕັ້ງຄ່າ',
-          'chooselang': 'ເລືອກພາສາ'
+          'chooselang': 'ເລືອກພາສາ',
+          'english': 'ພາສາອັງກິດ',
+          'lao': 'ພາສາລາວ',
+          'home': 'ໜ້າຫຼັກ',
+          'feed': 'ຖືກໃຈ',
+          'order': 'ອໍເດີຂອງຂ້ອຍ'
         }
       };
 }

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:localization/home_page/Home.dart';
+import 'package:localization/main.dart';
+import 'package:localization/page/Home.dart';
 
 class Setting extends StatelessWidget {
   final List locale = [
-    {'name': 'English', 'locale': Locale('en', 'US')},
-    {'name': 'Lao', 'locale': Locale('lao', 'Laos')},
+    {'name': 'english'.tr, 'locale': Locale('en', 'US')},
+    {'name': 'lao'.tr, 'locale': Locale('lao', 'Laos')},
   ];
   updateLanguage(Locale locale) {
     Get.back();
@@ -50,7 +51,7 @@ class Setting extends StatelessWidget {
         title: Text('setting'.tr),
         leading: IconButton(
             onPressed: () => Navigator.pushReplacement(
-                context, MaterialPageRoute(builder: (context) => HomeScreen())),
+                context, MaterialPageRoute(builder: (context) => MainScreen())),
             icon: Icon(Icons.arrow_back_ios)),
       ),
       body: Container(
